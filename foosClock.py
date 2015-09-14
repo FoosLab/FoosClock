@@ -188,7 +188,7 @@ def weatherColor(type):
 
 
 #define function illuminating LED
-def illuminateLED(strip, color, listPos, wait_ms=1):
+def illuminateLED(strip, color, listPos, wait_ms=100):
 #	if len(listPos) != strip.numPixels():
 #		return
 
