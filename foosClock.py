@@ -30,7 +30,7 @@ LED_COUNT       = 56
 LED_PIN         = 18
 LED_FREQ_HZ     = 800000
 LED_DMA         = 5
-LED_BRIGHTNESS  = 180
+LED_BRIGHTNESS  = 120
 LED_INVERT      = False
 
 
@@ -67,8 +67,8 @@ def main():
 		#weatherColor(weatherType)
 
 		#illuminate LED
-		#Color order = R G B
-		illuminateLED(strip, Color(0, 255, 0), listLightPos)
+		#Color order = G R B
+		illuminateLED(strip, Color(0, 0, 255), listLightPos)
 
 
 
