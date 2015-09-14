@@ -68,7 +68,7 @@ def main():
 
 		#illuminate LED
 		#Color order = R G B
-		illuminateLED(strip, Color(255, 255, 255), listLightPos)
+		illuminateLED(strip, Color(0, 255, 0), listLightPos)
 
 
 
