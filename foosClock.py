@@ -30,7 +30,7 @@ LED_COUNT       = 56
 LED_PIN         = 18
 LED_FREQ_HZ     = 800000
 LED_DMA         = 5
-LED_BRIGHTNESS  = 60
+LED_BRIGHTNESS  = 120
 LED_INVERT      = False
 
 
