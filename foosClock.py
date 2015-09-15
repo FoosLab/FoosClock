@@ -83,6 +83,7 @@ def main():
 
 		illuminateLED(strip, Color(R, G, B), listLightPos)
 
+		s2 = d.second%10
 		if stmp != s2:
 			i = i + 1
 
