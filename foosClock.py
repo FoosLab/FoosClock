@@ -81,6 +81,8 @@ def main():
 		print R, G, B
 		illuminateLED(strip, Color(R, G, B), listLightPos)
 
+		i = i + 1
+
 
 
 
