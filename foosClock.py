@@ -26,7 +26,7 @@ from neopixel import *
 
 
 #config
-LED_COUNT       = 13
+LED_COUNT       = 56
 LED_PIN         = 18
 LED_FREQ_HZ     = 800000
 LED_DMA         = 5
@@ -57,12 +57,12 @@ def main():
 		s2 = d.second%10
 		#convert each figures into binary position data
 		listLightPos = []
-		#listLightPos = listFig(h1)
-		#listLightPos.extend(listFig(h2))
-		#listLightPos.extend([1, 1, 1, 1])	#colon
-		#listLightPos.extend(listFig(m1))
-		#listLightPos.extend(listFig(m2))
-		listLightPos = listFig(s2)
+		listLightPos = listFig(h1)
+		listLightPos.extend(listFig(h2))
+		listLightPos.extend([1, 1, 1, 1])	#colon
+		listLightPos.extend(listFig(m1))
+		listLightPos.extend(listFig(m2))
+		#listLightPos = listFig(s2)
 
 		#get weather info
 		#weatherType = weather()
