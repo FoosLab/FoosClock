@@ -45,6 +45,8 @@ def main():
 
 	print 'Press Ctrl-C to quit'
 
+	i = 0
+
 	while True:
 		#get hour and minute
 		d = datetime.now()
@@ -70,7 +72,13 @@ def main():
 
 		#illuminate LED
 		#Color order = G R B
-		illuminateLED(strip, Color(255, 255, 255), listLightPos)
+		if i == 24:
+			i = 0
+
+		R = int(255.0 * pow(sin(2*pi*i/24), 2))
+		G = int(255.0 * pow(sin(2*pi*i/24 + 2*pi/3), 2))
+		B = int(255.0 * pow(sin(2*pi*i/24 + 4*pi/3), 2))
+		illuminateLED(strip, Color(R, G, B), listLightPos)
 
 
 
