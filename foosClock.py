@@ -75,13 +75,16 @@ def main():
 		if i == 24:
 			i = 0
 
+		stmp = s2
+
 		R = int(255.0 * math.pow(math.sin(2*math.pi*i/24), 2))
 		G = int(255.0 * math.pow(math.sin(2*math.pi*i/24 + 2*math.pi/3), 2))
 		B = int(255.0 * math.pow(math.sin(2*math.pi*i/24 + 4*math.pi/3), 2))
-		print R, G, B
+
 		illuminateLED(strip, Color(R, G, B), listLightPos)
 
-		i = i + 1
+		if stmp != s2
+			i = i + 1
 
 
 
