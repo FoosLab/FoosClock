@@ -26,7 +26,7 @@ from neopixel import *
 
 
 #config
-LED_COUNT       = 56
+LED_COUNT       = 26
 LED_PIN         = 18
 LED_FREQ_HZ     = 800000
 LED_DMA         = 5
