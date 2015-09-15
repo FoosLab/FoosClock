@@ -85,6 +85,7 @@ def main():
 
 		print i
 
+		d = datetime.now()
 		s2 = d.second%10
 		if stmp != s2:
 			i = i + 1
