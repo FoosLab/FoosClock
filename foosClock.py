@@ -76,8 +76,8 @@ def main():
 			i = 0
 
 		R = int(255.0 * math.pow(math.sin(2*math.pi*i/24), 2))
-		G = int(255.0 * math.pow(math.sin(2*math.pi*i/24 + 2*pi/3), 2))
-		B = int(255.0 * math.pow(math.sin(2*math.pi*i/24 + 4*pi/3), 2))
+		G = int(255.0 * math.pow(math.sin(2*math.pi*i/24 + 2*math.pi/3), 2))
+		B = int(255.0 * math.pow(math.sin(2*math.pi*i/24 + 4*math.pi/3), 2))
 		illuminateLED(strip, Color(R, G, B), listLightPos)
 
 
