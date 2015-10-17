@@ -57,12 +57,12 @@ def main():
 		s2 = d.second%10
 		#convert each figures into binary position data
 		listLightPos = []
-		#listLightPos = listFig(h1)
-		#listLightPos.extend(listFig(h2))
-		#listLightPos.extend([1, 1, 1, 1])	#colon
-		#listLightPos.extend(listFig(m1))
-		#listLightPos.extend(listFig(m2))
-		listLightPos = listFig(s2)
+		listLightPos = listFig(h1)
+		listLightPos.extend(listFig(h2))
+		listLightPos.extend([1, 1, 1, 1])	#colon
+		listLightPos.extend(listFig(m1))
+		listLightPos.extend(listFig(m2))
+		#listLightPos = listFig(s2)
 
 		#get weather info
 		#weatherType = weather()
