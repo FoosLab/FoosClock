@@ -61,8 +61,8 @@ def main():
 		listLightPos.extend(listFig(h2))
 		listLightPos.extend([1, 1, 1, 1])	#colon
 		listLightPos.extend(listFig(m1))
-		listLightPos.extend(listFig(m2))
-		#listLightPos = listFig(s2)
+		#listLightPos.extend(listFig(m2))
+		listLightPos = listFig(s2)
 
 		#get weather info
 		#weatherType = weather()
@@ -83,7 +83,7 @@ def main():
 
 		illuminateLED(strip, Color(R, G, B), listLightPos)
 
-		print i
+		print s2
 
 		d = datetime.now()
 		s2 = d.second%10
