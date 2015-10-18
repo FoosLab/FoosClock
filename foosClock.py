@@ -62,7 +62,8 @@ def main():
 		listLightPos.extend([1, 1, 1, 1])	#colon
 		listLightPos.extend(listFig(m1))
 		#listLightPos.extend(listFig(m2))
-		listLightPos = listFig(s2)
+		listLightPos.extend(listFig(s2))
+		#listLightPos = listFig(s2)
 
 		#get weather info
 		#weatherType = weather()
